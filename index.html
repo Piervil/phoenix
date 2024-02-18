@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="icon" href="https://cdn-icons-png.flaticon.com/128/9453/9453485.png">
+		<script src="https://kit.fontawesome.com/1444685f3d.js" crossorigin="anonymous"></script>
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Oswald:wght@700&display=swap" rel="stylesheet">
+		<!-- link css -->
+		<link rel="stylesheet" href="./css/styles.css">
+		<link rel="stylesheet" href="css/tablet.css" media="(min-width: 631px)">
+		<link rel="stylesheet" href="css/desktop.css" media="(min-width: 900px)">
+    <title>The best agency in the world</title>
+  </head>
+  <body>
+		<header class="header">
+			<a class="logo" href="index.html"><img src="./assets/logo.png" alt="logo">
+				<p>Phoenix</p>
+			</a>
+			<nav class="navbar">
+				<input type="checkbox" id="check">
+				<label for="check" class="toggle__menu">
+					<i class="fa-solid fa-bars"></i>
+				</label>
+				<ul class="menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#client">Client</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<!-- HERO -->
+		<section id="hero">
+			<div class="container">
+				<div class="hero__flex">
+					<div class="hero__info">
+						<h1>Think <span class="hero__color">Modern</span></h1>
+						<p>We simplify the way you do business by developing, implementing and modernizing digital solutions the right way.</p>
+						<div class="hero__btn">
+							<a class="btn" href="#">Contact Us</a>
+							<a class="btn btn__left" href="#">See More</a>
+						</div>
+					</div>
+					<div class="hero__img--left">
+						<img src="assets/comp.jpg" alt="computer">
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ABOUT -->
+		<section class="about">
+			<div class="container">
+				<div class="about__flex">
+					<div class="about__image">
+						<img src="assets/Photo.jpg" alt="foto">
+					</div>
+					<div class="about__info">
+						<h3 class="about__title">Modern Solutions.</h3>
+						<p class="about__text">With <span>disruptive technology </span>at our core, we provide innovative, high-quality solutions for your business.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- SERVICES -->
+		<section id="services">
+			<h2>Our Services</h2>
+			<div class="container">
+				<div class="services__flex">
+					<div class="services__card">
+						<h3>Modernization</h3>
+						<img src="assets/palette.png" alt="palette">
+						<p>Modernize your legacy software through different techniques, like re-implementation, conversion, wrapping, and redevelopment. We migrate your systems to the latest technology for improved performance and functionality.</p>
+					</div>
+					<div class="services__card">
+						<h3>Development</h3>
+						<img src="assets/code.png" alt="code">
+						<p>Get personalized software solutions for your specific problem. From custom web and mobile applications; data infrastructure for data analysis and recollection; all the way to integration with business intelligence solutions.<p>
+					</div>
+					<div class="services__card">
+						<h3>Technology Selection</h3>
+						<img src="assets/create.png" alt="create">
+						<p>Choosing the right platform for your specific problem can be overwhelming. We provide impartial assistance throughout your selection process, and help you identify and integrate the best software and hardware for your business.</p>
+					</div>
+					<div class="services__card">
+						<h3>Automation</h3>
+						<img src="assets//setting.png" alt="palette">
+						<p>We analyze your current business processes and provide customized, modern proposals for process automation – from RPAs, RDAs, BPAs, all the way to AI technology implementation. We automate tasks for your enterprise.</p>
+					</div>
+			</div>
+		</section>
+		<!-- CLIENT -->
+		<section id="client">
+			<div class="container">
+				<div class="client__flex">
+					<div class="client__left">
+						<h3>Tech Partners.</h3>
+						<span>We partner up with consulting firms</span>
+					</div>
+					<div class="client__right">
+						<p>That require qualified teams to develop their <span>software</span> projects.</p>
+						<div class="client__image">
+							<img src="assets/client.png" alt="client">
+							<img src="assets/client.png" alt="client">
+						</div>
+						<p class="client__tech">Looking for a tech partner?<a href="">Lets talk</a></p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- CONTACT -->
+		<section id="contact">
+			<h3 class="contact__title">Contact Us</h3>
+			<div class="container">
+				<div class="contact__flex">
+					<form action="https://formspree.io/f/xjvqvvjl" method="post" class="contact__form">
+						<h3 class="contact__text">Send us an email</h3>
+						<input class="contact__input" type="text" name="nombre" placeholder="Your name" required>
+						<input class="contact__input" type="text" name="apellido" placeholder="Your lastname" required>
+						<textarea class="contact__message" name="mensaje" cols="30" rows="10" placeholder="Message..." required></textarea>
+						<input class="contact__btn" type="submit" value="Send">
+					</form>
+					<div class="contact__map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d86029.29778716747!2d-122.35788800000002!3d47.637491!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490156ba01b4e4b%3A0xde5bdfe9498e9df5!2sQueen%20Anne%2C%20Seattle%2C%20Washington%2C%20EE.%20UU.!5e0!3m2!1ses-419!2scl!4v1688597754881!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+					<div class="join">
+						<h3 class="join__text">Get in touch</h3>
+						<div class="joint__map">
+							<i class="fa-solid fa-map-location"></i>
+							<p>123 Street, New York, USA</p>
+						</div>
+						<div class="joint__map">
+							<i class="fa-solid fa-phone"></i>
+							<p>+012 345 67890</p>
+						</div>
+						<div class="joint__map">
+							<i class="fa-solid fa-envelope"></i>
+							<p>info@example.com</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- FOOTER -->
+		<footer class="footer">
+			<div class="line"></div>
+			<div class="container">
+					<div class="footer__info">
+						<div>
+							<h4>©2023 All rights reserved.</h4>
+						</div>
+						<div>
+							<p>Made with ❤️ <a href="https://www.linkedin.com/in/jacques-jean-piervil-474b3a191/" target="_blank">By Piervil Jacques.</a></p>
+						</div>
+					</div>
+			</div>
+		</footer>
+	</body>
+</html>

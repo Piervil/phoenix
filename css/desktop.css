@@ -1,0 +1,45 @@
+#hero {
+	padding-top: 6.5rem;
+	height: 50rem;
+}
+
+.hero__info h1 {
+	font-size: 8rem;
+	width: 45%;
+	line-height: 9rem;
+	padding-bottom: 1rem;
+}
+
+.hero__info p {
+	width: 45%;
+	font-size: 1.4rem;
+	line-height: 2rem;
+}
+
+.hero__img--left img {
+	width: 35rem;
+}
+
+	/* ABOUT */
+	.about {
+		padding-top: 5rem;
+	}
+	
+	.about__image img {
+		width: 35rem;
+		height: 35rem;
+	}
+	
+	.about__title {
+		width: 70%;
+		font-size: 8rem;
+		line-height: 8rem;
+		font-family: var(--heading-font);
+		color: var(--color-text);
+		padding-bottom: 1rem;
+	}
+	
+	
+	
+	
+	

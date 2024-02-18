@@ -1,0 +1,86 @@
+#hero {
+	padding-top: 6rem;
+	height: 40rem;
+}
+
+.hero__flex {
+	gap: 1rem;
+}
+
+.hero__info h1 {
+	font-size: 5.5rem;
+	padding-bottom: 1rem;
+}
+
+.hero__info p {
+	width: 97%;
+	font-size: 1.4rem;
+}
+
+.hero__img--left img {
+	width: 25rem;
+}
+
+/* ABOUT */
+
+.about__image img {
+	width: 25rem;
+	height: 25rem;
+}
+
+.about__title {
+	width: 100%;
+	font-size: 4rem;
+	line-height: 4rem;
+}
+
+	/* === SERVICES === */
+	#services h2 {
+		font-size: 4rem;
+	}
+
+	.services__flex {
+		flex-wrap: wrap;
+	}
+
+	.services__card {
+		margin-bottom: 1rem;
+	}
+
+		/* === CLIENT === */
+		.client__flex {
+			flex-direction: column;
+		}
+		
+		.client__left h3 {
+			width: 100%;
+			font-size: 4rem;
+			text-align: center;
+			padding-top: 2rem;
+			line-height: 4rem;
+		}
+	
+	.client__image img {
+		width: 15rem;
+	}
+	
+	.client__tech {
+		font-size: 1.6rem;
+	}
+
+	/* === CONTACT === */
+.contact__flex {
+	flex-wrap: wrap;
+}
+
+.contact__map iframe {
+	width: 27rem;
+	height: 30rem;
+	border-radius: .7rem;
+}
+
+/* === FOOTER=== */
+.footer__info {
+	flex-wrap: wrap;
+	gap: 2rem;
+}
